@@ -1,0 +1,354 @@
+body{
+    font-family: Archivo;
+}
+.outer{
+    display: grid;
+    grid-template-rows: 104px 504px 1fr 1fr 1fr ;
+}
+.header{
+    display: grid;
+    background-color: rgba(3, 78, 135, 0.9);
+    box-shadow: 0px 4px 5.900000095367432px 0px rgba(255, 255, 255, 1);
+    top: -1375px;
+    left: 1340px;
+    height: 103px;
+    grid-template-columns: 3fr 1.5fr;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.header-div{
+    display: grid;
+    color: white;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    cursor: pointer;
+}
+.cine-logo{
+    width: 25%;
+    margin-top: 20px;
+}
+.sideOptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    padding-top: 35px;
+    cursor: pointer;
+    
+}
+.cinema-club{
+    background-color:rgba(59, 136, 195, 1);
+
+}
+.movies{
+    height: 507px;
+    top: 1066px;
+    background-color:rgba(59, 136, 195, 1);
+}   
+.heading{
+    font-family: Archivo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: white;
+    width: 282px;
+    height: 52px;
+    top: 188px;
+    left: 206px;
+    position: absolute;
+
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 100px;
+    position: relative;
+    margin-top: -100px;
+}
+.content-text{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Noto Color Emoji Compat Test;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    width: 486px;
+    height: 300px;
+    top: 254.65px;
+    left: 207.04px;
+}
+.content-img{
+    position: absolute;
+    width: 349px;
+    height: 284px;
+    top: 228px;
+    left: 900px;
+
+}
+.event-head{
+    width: 162px;
+    height: 52px;
+    position: relative;
+    font-family: Archivo;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(59, 136, 195, 1);
+
+}
+.event-text{
+    position: absolute;
+    width: 486px;
+    height: 304px;
+    top: 740px;
+    left: 207px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(59, 136, 195, 1);
+}
+.event-img{
+    position: absolute;
+    width: 308px;
+    height: 233.96px;
+    top: 740px;
+    left: 958px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+.img1-event{
+    position: relative;
+    width: 153px;
+    height: 214px;
+    top: 500px;
+    left: 40px;
+    rotate: -0.66deg;
+
+}
+.img2-event{
+    position: relative;
+    width: 168.47px;
+    height: 175.96px;
+    top: 520.34px;
+    left: 0.53px;
+    rotate: -0.23deg;
+}
+.movies-text{
+    position: absolute;
+    width: 542px;
+    height: 90px;
+    top: 1256px;
+    left: 207px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: white;
+}
+.movies.img{
+    width: 353.26px;
+    height: 321px;
+    top: 1163px;
+    left: 850 px;
+    box-shadow: 0px 4px 4.800000190734863px 0px rgba(0, 0, 0, 0.25);
+
+}
+.img1-movies{
+    position: absolute;
+    width: 126.46px;
+    height: 172.82px;
+    top: 1163px;
+    left: 950.63px;
+    rotate: -0.54deg;
+    z-index: 10;
+    box-shadow: 0px 4px 8.699999809265137px 0px rgba(0, 0, 0, 0.01);
+
+}
+.img2-movies{
+    position: absolute;
+    width: 121.32px;
+    height: 163.23px;
+    top: 1178.65px;
+    left: 1050.63px;
+    rotate: 0.31deg;
+    z-index: 2;
+    box-shadow: 0px 4px 4.800000190734863px 0px rgba(0, 0, 0, 0.01);
+
+}
+.img3-movies{
+    position: absolute;
+    width: 130.77px;
+    height: 180.02px;
+    top: 1202.09px;
+    left: 1135.63px;
+    rotate : 0.92deg;
+    z-index: 1;
+    box-shadow: 0px 4px 9.699999809265137px 0px rgba(0, 0, 0, 0.01);
+
+}
+.img4-movies{
+    position: absolute;
+    width: 213px;
+    height: 125px;
+    top: 1320px;
+    left: 1030.63px;
+    box-shadow: 0px 4px 7.199999809265137px 0px rgba(0, 0, 0, 0.01);
+
+}
+.img5-movies{
+    position: absolute;
+    width: 128.73px;
+    height: 158.85px;
+    top: 1305.15px;
+    left: 958.63px;
+    rotate: 0.07deg;
+    z-index: 1;
+    box-shadow: 0px 4px 26.600000381469727px 0px rgba(0, 0, 0, 0.01);
+}
+.movies-head{
+    position: absolute;
+    width: 168px;
+    height: 52px;
+    top: -130px;
+    left: 0px;
+    font-family: Archivo;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    border-radius: 20px;
+    color: white;
+
+}
+.button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 180px;
+    left: 2px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: rgba(59, 136, 195, 1);
+    background-color: white;
+    border-color: rgba(59, 136, 195, 1);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.075);
+    transition: box-shadow 0.5s, opacity 0.5s, color 0.5s, background-color 0.5s, border-color 0.5s;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 5px 5px 5px  rgba(255, 255, 255,0.3);
+    opacity: 0.6;
+    color: white;
+    background-color: rgba(59,136,195,1);
+    border-color: white;
+}
+.button:active{
+    box-shadow: -5px -5px 5px rgba(255,255,255,0.3), 5px 5px 5px rgba(255, 255, 255, 0.4);
+    opacity: 0.2;
+    color: rgba(59, 136, 195, 1);
+    background-color: white;
+    border-color: white;
+}
+.aboutUs-text{
+    position: absolute;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Noto Color Emoji Compat Test;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 542px;
+    height: 180px;
+    top: 1744px;
+    left: 180px;
+    color: rgba(59, 136, 195, 1);
+
+}
+.aboutUs-img{
+    position: absolute;
+    width: 423px;
+    height: 261px;
+    top: 1693px;
+    left: 850px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.instagram, .facebook,.google{
+    position: relative;
+    margin: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px  rgba(59, 136, 195,0.1);
+}
+.insta-logo{
+    position: absolute;
+    top: 9px;
+    left: 14px;
+}
+.facebook-logo{
+    position: absolute;
+    top: 12px;
+    left: 19.5px;
+}
+.google-logo{
+    position: absolute;
+    top: 7px;
+    left: 14px;
+}
